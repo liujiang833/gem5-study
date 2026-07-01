@@ -10,11 +10,14 @@
 jl-tutorials/
 ├── ch0/   第零章 · gem5 仿真框架概述
 │   └── arm_o3_simple.py            ARM O3CPU + 私有 L1（classic）
-└── ch2/   第二章 · Ruby 内存子系统
-    ├── ruby_mesi_two_level.py      2.1/2.3：Ruby(MESI_Two_Level) 两级缓存
-    ├── igemm.c                     2.4：多线程整数 GEMM 工作负载
-    ├── chi_shared_l2_hierarchy.py  2.4：自定义 CHI 共享 L2 层级
-    └── chi_l2_experiment.py        2.4：共享 vs 私有 L2 的 DDR 带宽对比
+├── ch2/   第二章 · Ruby 内存子系统
+│   ├── ruby_mesi_two_level.py      2.1/2.3：Ruby(MESI_Two_Level) 两级缓存
+│   ├── igemm.c                     2.4：多线程整数 GEMM 工作负载
+│   ├── chi_shared_l2_hierarchy.py  2.4：自定义 CHI 共享 L2 层级
+│   └── chi_l2_experiment.py        2.4：共享 vs 私有 L2 的 DDR 带宽对比
+└── ch3/   第三章 · Memory Models：DRAM 控制器与内存建模
+    ├── dram_sweep.py               3.1：DDR4 页策略/地址映射/顺序随机流扫描
+    └── mem_compare.py              3.2：HBM2 vs DDR4 内存带宽对比
 ```
 
 ## 运行约定
